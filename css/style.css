@@ -64,7 +64,7 @@ body{
 }
 
 .hold{
-    border:5px solid #eee;
+    border: 2px solid rgba(0, 0,0 , 0.2);
 }
 
 .hide{
@@ -72,5 +72,7 @@ body{
 }
 
 .hovered{
-    border-top: 2px solid #8ed7ed;
+    border-top: 2.5px solid;
+    border-image-source: linear-gradient(90deg , #ff85e4 0%, #229efd 178.25%);
+    border-image-slice: 1;
 }
